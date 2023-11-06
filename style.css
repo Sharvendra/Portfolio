@@ -371,6 +371,35 @@ header.sticky {
     cursor: pointer;
 }
 
+
+
+.skills-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+
+.row img {
+    height:300px;
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 1.4rem;
+}
+
+.row {
+    background: #000000;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    padding: 20px;
+    transition: all .50s ease;
+}
+
+.contact{
+    background: #2d343f;
+}
 .contact-form {
     display: flex;
     align-items: center;
@@ -390,7 +419,7 @@ form textarea {
     border: none;
     outline: none;
     box-shadow: 0 0 5px var(--main-color);
-    background: #2d343f;
+    background: #000000;
     color: var(--text-color);
     margin-bottom: 20px;
     border-radius: 8px;
